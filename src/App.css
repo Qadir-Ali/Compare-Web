@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.categories{
+    margin: 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.categories table{
+    width: 100%;
+}
+.categories tr{
+    margin-left: 10%;
+}
+.content{
+    display: flex;
+    margin-top: 1%;
+}
+.content input[type="checkbox"] {
+    margin-right: 5%;
+}
+.home-banner .hm-right {
+    width: 300px;
+    float: right;
+}
+.compare-product {
+    width: 300px;
+    height: 265px;
+    background: #FF6400;
+    padding: 12px 11px;
+}
+.compare-product h2, .compare-product .cpHd {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.compare-product .comparefield {
+    background: #fff;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px 10px;
+}
+.compare-product .comfeature {
+    width: 100%;
+    padding: 10px 15px 8px;
+    background: #ededed;
+    border-top: 1px solid #cfcfcf;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.compare-product .comparefield select {
+    height: 30px;
+    padding: 4px 22px 4px 9px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    font-size: 14px;
+    border: solid 1px #ababab;
+    outline: none;
+    width: 100%;
+    color: rgba(0,0,0,.75);
+}
+.b-product-cat input[type=text] {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #c7c5d0;
+    border-radius: 3px;
+    margin: 0;
+    font: 400 14px/18px "Roboto";
+    color: #252525;
+    padding: 0 9px;
+    box-shadow: 1px 1px 0 0 #e8e7ef inset, -1px -1px 0 0 #e8e7ef inset;
+}
+.NewProductS {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 5% !important;
+    justify-content: space-between;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .NewProductS .item {
+    cursor: pointer;
+    max-width: 300px;
   }
-  to {
-    transform: rotate(360deg);
+  .NewProductS .item .imgeOuter {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+    border-radius: 10px;
   }
-}
+  .NewProductS .item .imgeOuter img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 20px;
+  }
+  .NewProductS .item p {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: FuturaMine;
+  }
+  

@@ -1,0 +1,47 @@
+.Header_Component {
+  background: #c3eaed;
+  border-bottom: 1px solid #f2f5f7;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header_Component .Left_Component {
+  width: 20%;
+}
+.Header_Component .Left_Component img {
+  width: 87px;
+  display: block;
+  margin: auto;
+}
+.Header_Component .Mid_Component {
+  width: 50%;
+  display: flex;
+}
+.Header_Component .Mid_Component input {
+  width: 80%;
+  outline: none;
+  border: 1px solid #4f89c2;
+  background-color: transparent;
+  padding: 10px;
+  border-right: none;
+}
+.Header_Component .Mid_Component button {
+  width: 20%;
+  background-color: #ff6400;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #ff6400;
+}
+.Header_Component .Right_Component {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.Header_Component .Right_Component i {
+  font-size: 2rem;
+  cursor: pointer;
+}

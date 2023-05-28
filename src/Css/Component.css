@@ -1,0 +1,34 @@
+.Five_Component {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Five_Component div{
+    width: 20%;
+    margin: 0;
+}
+.Five_Component div img {
+    width: 100%;
+    margin: 0;
+}
+.Five_Component div p{
+    margin: 0;
+}
+.Five_Component div .head{
+font-size: 18px;
+padding: 10px;
+width: 100%;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.Five_Component div .price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FF6400;
+}
